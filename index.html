@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <h2 class="logo">LOGO</h2>
+      <nav class="nav-bar">
+        <ul>
+          <li><span onclick="homeClick()">HOME </span></li>
+          <li><span onclick="aboutClick()">ABOUT</span></li>
+          <li><span onclick="serviceID()">SERVICE</span></li>
+          <li><span onclick="myskillID()">SKILL</span></li>
+          <li><span>PROJECT</span></li>
+          <li><span onclick="contactID()">CONTACT</span></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home-section" id="home-sectionID">
+      <div class="image-gallery">
+        <img class="top-image" src="6.png" alt="Profile" />
+      </div>
+      <div class="content">
+        <h3>Hello, I'm Mozeed Arogundade</h3>
+        <p class="home-details">
+          Creative and detail-oriented Frontend Developer with 2+ years of
+          experience building responsive, user-friendly websites and web
+          applications. Skilled in modern HTML, CSS, and JavaScript and I'm
+          Skilled in modern HTML, CSS, and JavaScript frameworks like React and
+          Vue.js. Strong collaboration and problem-solving abilities, with a
+          passion for clean code, UX/UI best practices, and performance
+          optimization.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-container" id="aboutPage">
+      <div class="about-text">
+        <h1 class="heading">About Me</h1>
+        <p class="about-page">
+          Years of experience in designing, developing, and optimizing
+          user-friendly and responsive web applications. I specialize in
+          crafting seamless digital experiences that bridge the gap between
+          design and functionality. My core expertise lies in HTML5, CSS3,
+          JavaScript (ES6+), React.js, and Vue.js, with a passion for writing
+          clean, maintainable code and delivering pixel-perfect interfaces that
+          elevate user engagement and satisfaction. I've worked with startups,
+          SMEs, and enterprise-level clients across industries like eCommerce,
+          finance, healthcare, SaaS, education, and entertainment. My
+          development philosophy is rooted in usability, performance, and
+          scalability.
+        </p>
+      </div>
+      <div class="about-image">
+        <img class="image-self" src="9.png" alt="Mozeed Arogundade" />
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <h2 class="service">MY SERVICES</h2>
+
+    <section class="services-container" id="serviceID">
+      <!-- <h2>MY SERVICES</h2> -->
+      <div class="service-item">
+        <h3>Responsive Design</h3>
+        <p>
+          Responsive Design ensures a website looks and functions well across
+          all screen sizes — from desktops to mobile phones.
+        </p>
+        <a
+          href="https://en.wikipedia.org/wiki/Responsive_web_design"
+          class="btn"
+          >Read more</a
+        >
+      </div>
+
+      <div class="service-item">
+        <h3>UI/UX Design</h3>
+        <p>
+          Understanding UI/UX principles allows you to create apps that are
+          visually appealing, intuitive, and accessible.
+        </p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+
+      <div class="service-item">
+        <h3>Mobile App</h3>
+        <p>
+          Mobile app development focuses on building interfaces and experiences
+          that work on touch devices like smartphones and tablets.
+        </p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="my-skill" id="myskillID">
+      <!-- <h2>My Skills</h2> -->
+      <div class="skill-item">
+        <h3>HTML</h3>
+        <img class="skill-image1" src="html.png" alt="section-iamge" />
+      </div>
+      <div class="skill-item">
+        <h3>CSS</h3>
+        <img class="skill-image2" src="css (2).png" alt="section-iamge" />
+      </div>
+      <div class="skill-item">
+        <h3>JavaScript</h3>
+        <img class="skill-image3" src="js.png" alt="section-iamge" />
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <!-- <section>
+      <div class="project-section">
+        <div class="project-item">
+          <video src="cash cow.mp4" type="video/mp4"></video>
+        </div>
+        <div class="project-item">
+          <video src="cash cow.mp4" type="video/mp4"></video>
+        </div>
+        <div class="project-item">
+          <video src="cash cow.mp4" type="video/mp4"></video>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Contact Section -->
+
+    <section class="contact-me" id="contactID">
+      <h2>Contact Me</h2>
+      <form class="contact-form" action="#" method="POST">
+        <input type="text" placeholder="Enter your name" required />
+        <input type="email" placeholder="Enter your email" required />
+        <input type="text" placeholder="Enter your subject" required />
+        <textarea placeholder="Description here" rows="4" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
